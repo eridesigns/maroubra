@@ -1,0 +1,115 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic);
+@import "less/bootstrap.less";
+.top {
+	color: @white;
+	padding-top: 130px;
+	padding-bottom: 130px;
+	padding-left: 80px;
+}
+.top-inner {
+	color: @white;
+	padding-top: 80px;
+	padding-bottom: 40px;
+	padding-left: 80px;
+}
+/* dropdown fix, makes the bootstrap nav to show on hover. Remove <b class="caret"></b> if you don't want the arrow */
+ul.nav li.dropdown:hover > ul.dropdown-menu {
+    display: block;    
+}
+
+.navbar-inverse {
+	background: url(assets/images/overlay-2.png) repeat scroll 0 0;
+}
+.headline {
+	width: 80%;
+	font-size: @font-size-h1;
+	font-weight: lighter;
+}
+.middle {
+	background-color: @white;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+.project {
+	margin-bottom: 80px;
+}
+
+.content {
+	padding-right: 95px;
+	padding-left: 95px;
+}
+
+.bottom {
+	padding-top: 40px;
+	padding-bottom: 120px;
+}
+
+.footer-social {
+	display: table-cell;
+	list-style-type: none;;
+	padding: 0;
+}
+
+.footer-social li {
+	float: left;
+	margin-right: 15px;
+}
+
+.footer-social li i {
+	font-size: @font-size-h3;
+	color: @white;
+}
+.copy {
+	margin-top: 15px;
+	display: block;
+	color: @white;
+}
+
+/* sidebar */
+.sidebar {
+	border-left: 1px solid @gray-lighter;
+	padding-left: 45px;
+	padding-right: 95px;
+	padding-bottom: 30px;
+}
+.side-widget ul {
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+
+.side-widget ul li {
+	line-height: 30px;
+	border-bottom:1px solid @gray-lighter;
+}
+
+/* portfolio */
+.project-thumb:before {
+	content: '';
+	margin-top: 20px;
+	display: block;
+	height: 30px;
+	background-color: @brand-success;
+	border-radius: 6px 6px 0 0;
+}
+.project-description {
+	padding-left: 80px;
+	padding-right:80px;
+}
+
+.project-description h3 {
+	border-top: 1px solid @gray-lighter;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+
+.project-description .btn {
+	margin-top: 20px;
+}
+
+
+
+
+
+
+

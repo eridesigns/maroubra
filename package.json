@@ -1,0 +1,10 @@
+{
+	"name" : "this_is_the_name_of_the_project_it_needs_to_have_no_spaces",
+	"version" : "0.0.1",
+	"devDependencies": {
+	"grunt" : "~0.4.1",
+	"grunt-contrib-watch" : "~0.6.1",
+	"grunt-contrib-uglify" : "~0.4.0",
+	"grunt-contrib-less" : "~0.11.0"
+	}
+}
